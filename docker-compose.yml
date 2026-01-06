@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  manga-app:
+    build: .
+    image: manga-web-nas:v2
+    container_name: manga_nas_service
+    ports:
+      - "8501:8501"
+    volumes:
+      # 宿主机路径 : 容器内对应代码指定的路径
+      - "/volume3/漫画:/app/downloads"
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
