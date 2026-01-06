@@ -16,7 +16,7 @@
 ![image](https://github.com/user-attachments/assets/42649de2-20bf-4e84-ae10-9c7da09b1dbb)
 
 
-# 📖 使用方法
+# 📖 使用方法1（作者原版）
 
 #### 📝 步骤
 
@@ -37,7 +37,7 @@ pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 python3 hxs-downloader.py
 ```
 
-# 📖 使用方法2
+# 📖 使用方法2（在docker上运行）
 构造镜像，在docker上运行，有web界面；支持调整同时下载章数，每章迸发图片数；支持根据ID进行批量下载
 <img width="1899" height="737" alt="image" src="https://github.com/user-attachments/assets/1a6bc4e0-44ae-42e5-bb5f-bf2079bcce72" />
 
